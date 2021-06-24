@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function answer(yesno){
+            let traloi = "";
+            if (yesno) {
+            traloi = "toi cung yeu ban";
+            } else{
+            traloi = "toi cung the";
+            }
+            return traloi;
+        }
+        let result = confirm('ban co thich toi khong');
+        alert(answer(result));
+
+    </script>
+</body>
+</html>
